@@ -1,1 +1,4 @@
-./node_modules
+node_modules
+ethereum/build
+node_modules
+ADDRESS

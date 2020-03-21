@@ -36,7 +36,7 @@ contract Campaign {
     }
     
     function Campaign(uint minimum, address creator) public {
-        manager = msg.sender;
+        manager = creator;
         minimumContribution = minimum;
     }
     

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,19 @@
   },
   "homepage": "https://github.com/damivazbien/kickstart#readme",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.30",
+    "bignumber.js": "^9.0.0",
+    "delete": "^1.1.0",
     "fs-extra": "^8.1.0",
     "ganache-cli": "^6.9.1",
-    "mocha": "^7.1.0",
-    "solc": "^0.4.17",
+    "mocha": "^4.1.0",
+    "next": "^4.1.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2",
+    "solc": "^0.4.19",
+    "truffle-hdwallet-provider": "0.0.3",
     "web3": "^1.0.0-beta.26"
   }
 }
