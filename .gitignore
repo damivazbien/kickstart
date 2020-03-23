@@ -2,3 +2,5 @@ node_modules
 ethereum/build
 node_modules
 ADDRESS
+ethereum/deploy.js
+ethereum/factory.js

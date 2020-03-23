@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const compileFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-    'xxxx',
-    'xxxx'
+    'song hockey party noodle shadow air input nasty nephew woman wasp chunk',
+    'https://rinkeby.infura.io/v3/c09f2555bffc4747934e2e9e4dbd203d'
 );
 const web3 = new Web3(provider);
 
